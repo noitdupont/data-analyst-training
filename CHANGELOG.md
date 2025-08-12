@@ -1,6 +1,7 @@
 # Changelog
 
 ## v0.0.2 - 2025-08-12 - @0xnu
+* Training roadmap added
 * Week 2 SQL added
 * AdventureWorks database added
 * Northwind database added

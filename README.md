@@ -20,6 +20,19 @@ The dataset used for the training materials is the [Northwind dataset](./data/no
 
 > Data Analyst UK Average Salary: [Source](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
 
+### Roadmap
+
+The training roadmap is available [here](./roadmap/roadmap.png).
+
+SQL Training (10 weeks, 2 days):
++ Weeks 1-4: Core fundamentals including database concepts, basic queries, filtering, and grouping
++ Weeks 7-10: Intermediate skills covering aggregate functions, JOINs, subqueries, and data manipulation
++ Weeks 11-12: Advanced techniques including window functions, complex JOINs, and stored procedures
+
+Power BI Training (2 weeks):
++ Week 5: Fundamentals, data import, and basic visualisations
++ Week 6: Advanced dashboards, reports, and publishing capabilities
+
 ### License
 
 This project is licensed under the [Modified MIT License](./LICENSE).
