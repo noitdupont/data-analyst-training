@@ -16,7 +16,7 @@ Each week contains PDF materials covering the topics in detail. The materials ar
 
 ### Dataset
 
-The dataset used for the training materials is the [Northwind dataset](./northwind.sql), which is a well-known dataset in the field of data science. The dataset contains information about the Northwind Traders, including their customers, employees, products, and orders.
+The dataset used for the training materials is the [Northwind dataset](./data/northwind.sql), which is a well-known dataset in the field of data science. The dataset contains information about the Northwind Traders, including their customers, employees, products, and orders.
 
 ### License
 
