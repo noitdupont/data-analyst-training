@@ -14,6 +14,10 @@ The repository contains training materials for data analysts, organized by week:
 
 Each week contains PDF materials covering the topics in detail. The materials are designed to be self-contained, with each week building on the concepts introduced in the previous week.
 
+### Dataset
+
+The dataset used for the training materials is the [Northwind dataset](./northwind.sql), which is a well-known dataset in the field of data science. The dataset contains information about the Northwind Traders, including their customers, employees, products, and orders.
+
 ### License
 
 This project is licensed under the [Modified MIT License](./LICENSE).
