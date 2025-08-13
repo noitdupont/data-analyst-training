@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.3 - 2025-08-13 - @0xnu
+* Week 2 Assignment Solution
+
 ## v0.0.2 - 2025-08-12 - @0xnu
 * Training roadmap added
 * Week 2 SQL added
