@@ -34,6 +34,12 @@ Power BI Training (2 weeks):
 + Week 5: Fundamentals, data import, and basic visualisations
 + Week 6: Advanced dashboards, reports, and publishing capabilities
 
+### Useful Books
+
++ [Becoming a Data Analyst](https://amzn.to/3V29U64)
++ [Learning SQL](https://amzn.to/4mh8nW3)
++ [Data Visualization with Microsoft Power BI](https://amzn.to/3V0qdQR)
+
 ### License
 
 This project is licensed under the [Modified MIT License](./LICENSE).
