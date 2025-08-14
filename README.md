@@ -34,6 +34,10 @@ Power BI Training (2 weeks):
 + Week 5: Fundamentals, data import, and basic visualisations
 + Week 6: Advanced dashboards, reports, and publishing capabilities
 
+### SQL Cheatsheet
+
+There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-training/).
+
 ### Useful Books
 
 + [Becoming a Data Analyst](https://amzn.to/3V29U64)
