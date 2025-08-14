@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.4 - 2025-08-14 - @0xnu
+* SQL Cheatsheet added
+
 ## v0.0.3 - 2025-08-13 - @0xnu
 * Week 2 Assignment Solution
 
