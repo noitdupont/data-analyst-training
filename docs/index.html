@@ -209,6 +209,55 @@
         <span class="snippet">CREATE INDEX idx_email ON users(email);</span>
     </div>
 
+    <!-- Views -->
+    <div class="card">
+        <h2>Views <span class="tag q">VIEW</span></h2>
+        <table>
+            <tr><th>Action</th><th>Syntax</th></tr>
+            <tr><td>CREATE</td><td><code>CREATE VIEW v AS SELECT ...</code></td></tr>
+            <tr><td>OR REPLACE</td><td><code>CREATE OR REPLACE VIEW v AS ...</code></td></tr>
+            <tr><td>DROP</td><td><code>DROP VIEW v</code></td></tr>
+            <tr><td>QUERY</td><td><code>SELECT * FROM view_name</code></td></tr>
+        </table>
+        <span class="snippet">CREATE VIEW active_users AS SELECT * FROM users WHERE status='active';</span>
+    </div>
+
+    <!-- Stored Procedures -->
+    <div class="card">
+        <h2>Stored Procedures <span class="tag f">PROC</span></h2>
+        <table>
+            <tr><th>Action</th><th>Syntax</th></tr>
+            <tr><td>CREATE</td><td><code>CREATE PROCEDURE p() BEGIN ... END</code></td></tr>
+            <tr><td>PARAMETERS</td><td><code>CREATE PROCEDURE p(IN param TYPE)</code></td></tr>
+            <tr><td>CALL</td><td><code>CALL procedure_name(args)</code></td></tr>
+            <tr><td>DROP</td><td><code>DROP PROCEDURE p</code></td></tr>
+        </table>
+        <span class="snippet">DELIMITER //
+CREATE PROCEDURE GetUserById(IN uid INT)
+BEGIN
+  SELECT * FROM users WHERE id = uid;
+END //
+DELIMITER ;</span>
+    </div>
+
+    <!-- Triggers -->
+    <div class="card">
+        <h2>Triggers <span class="tag f">TRIG</span></h2>
+        <table>
+            <tr><th>Type</th><th>When</th></tr>
+            <tr><td>BEFORE INSERT</td><td>before row insert</td></tr>
+            <tr><td>AFTER INSERT</td><td>after row insert</td></tr>
+            <tr><td>BEFORE UPDATE</td><td>before row update</td></tr>
+            <tr><td>AFTER UPDATE</td><td>after row update</td></tr>
+            <tr><td>BEFORE DELETE</td><td>before row delete</td></tr>
+            <tr><td>AFTER DELETE</td><td>after row delete</td></tr>
+        </table>
+        <span class="snippet">CREATE TRIGGER update_timestamp 
+BEFORE UPDATE ON users 
+FOR EACH ROW 
+SET NEW.updated_at = NOW();</span>
+    </div>
+
 </div>
 
 </body>
