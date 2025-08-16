@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.5 - 2025-08-16 - @0xnu
+* Menagerie and World databases added
+
 ## v0.0.4 - 2025-08-14 - @0xnu
 * SQL Cheatsheet added
 
