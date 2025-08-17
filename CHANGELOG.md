@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.7 - 2025-08-17 - @0xnu
+* Week 3 Assignment Solution
+
 ## v0.0.6 - 2025-08-17 - @0xnu
 * Week 3 added
 
