@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.6 - 2025-08-17 - @0xnu
+* Week 3 added
+
 ## v0.0.5 - 2025-08-16 - @0xnu
 * Menagerie and World databases added
 
