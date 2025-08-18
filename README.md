@@ -12,6 +12,8 @@ The repository contains training materials for data analysts, organized by week:
 - **Week 2**: Basic SELECT Statements
 - **Week 3**: WHERE Clauses & Filtering
 - **Week 4**: Sorting & Grouping Data
+- **Week 5**: Fundamentals, data import, and basic visualisations (Hands-on Lab Session)
+- **Week 6**: Advanced dashboards, reports, and publishing capabilities (Hands-on Lab Session)
 - ...
 
 Each week contains PDF materials covering the topics in detail. The materials are designed to be self-contained, with each week building on the concepts introduced in the previous week.
