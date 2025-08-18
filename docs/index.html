@@ -1,264 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>SQL Cheatsheet</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    :root{
-        --bg:#0d1117;
-        --card:#161b22;
-        --accent:#58a6ff;
-        --text:#c9d1d9;
-        --dim:#8b949e;
-        --ok:#39d353;
-        --warn:#f85149;
+  <meta charset="utf-8">
+  <title>Data Analyst Training</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* ---------- 1. Reset & cheatsheet antialias ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    *{box-sizing:border-box;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-    body{margin:0;background:var(--bg);color:var(--text);padding:2rem}
-    h1{margin:0 0 1rem;font-size:2.2rem;font-weight:600;color:var(--accent)}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.2rem}
-    .card{background:var(--card);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid var(--accent)}
-    h2{margin:.2rem 0 .8rem;font-size:1.25rem;color:var(--accent)}
-    table{width:100%;border-collapse:collapse}
-    th,td{padding:.4rem .3rem;font-size:.85rem;text-align:left}
-    th{color:var(--dim);font-weight:600;border-bottom:1px solid #30363d}
-    code{background:#21262d;padding:.2rem .4rem;border-radius:6px;color:var(--ok);font-family:"Cascadia Code","Fira Code",monospace;font-size:.8rem}
-    .snippet{display:block;margin-top:.3rem;background:#21262d;border-radius:6px;padding:.6rem;color:var(--text);font-family:"Cascadia Code","Fira Code",monospace;font-size:.78rem;white-space:pre-wrap;word-break:break-word}
-    .tag{display:inline-block;font-size:.7rem;padding:.2rem .4rem;border-radius:4px;margin:.1rem .1rem 0 0}
-    .tag.q{background:#1f2937}   /* query */
-    .tag.t{background:#064e3b}   /* type   */
-    .tag.c{background:#7c2d12}   /* constraint */
-    .tag.j{background:#172554}   /* join   */
-    .tag.f{background:#3b0764}   /* function */
-    .tag.o{background:#4c0519}   /* operator */
-</style>
+
+    /* ---------- 2. Core variables ---------- */
+    :root {
+      --bg: #ffffff;
+      --bg-alt: #f7f7f7;
+      --text: #111111;
+      --accent: #007acc;
+      --mono: "SF Mono", "Consolas", "Monaco", monospace;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      font-family: var(--sans);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      padding: 3rem 1.5rem;
+    }
+
+    /* ---------- 3. Layout helpers ---------- */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: .5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 2.5rem 0 .75rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    /* ---------- 4. Lists & tables ---------- */
+    .week-list {
+      list-style: none;
+    }
+
+    .week-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: .75rem 0;
+      border-bottom: 1px solid var(--bg-alt);
+    }
+
+    .week-list strong {
+      font-family: var(--mono);
+      color: var(--accent);
+    }
+
+    /* ---------- 5. Buttons ---------- */
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      padding: .5rem 1rem;
+      border-radius: 3px;
+      transition: background .15s;
+    }
+
+    .btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
+    /* ---------- 6. Footer ---------- */
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: .875rem;
+      color: #555;
+    }
+
+    /* ---------- 7. Responsive ---------- */
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .week-list li { flex-direction: column; }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Data Analyst Training</h1>
+      <p>Self-contained 12-week curriculum using the Northwind dataset.</p>
+    </header>
 
-<h1>SQL Cheatsheet</h1>
+    <section>
+      <h2>SQL Training (Weeks 1–4 & 7–12)</h2>
+      <ul class="week-list">
+        <li><strong>Week&nbsp;1</strong> <span>Introduction to Data Analysis</span></li>
+        <li><strong>Week&nbsp;2</strong> <span>Basic SELECT Statements</span></li>
+        <li><strong>Week&nbsp;3</strong> <span>WHERE Clauses & Filtering</span></li>
+        <li><strong>Week&nbsp;4</strong> <span>Sorting & Grouping Data</span></li>
+        <li><strong>Week&nbsp;7</strong> <span>Aggregate Functions</span></li>
+        <li><strong>Week&nbsp;8</strong> <span>JOINs & Subqueries</span></li>
+        <li><strong>Week&nbsp;9</strong> <span>Data Manipulation</span></li>
+        <li><strong>Week&nbsp;10</strong> <span>Window Functions & Complex JOINs</span></li>
+        <li><strong>Week&nbsp;11</strong> <span>Stored Procedures</span></li>
+        <li><strong>Week&nbsp;12</strong> <span>Capstone Project</span></li>
+      </ul>
+    </section>
 
-<div class="grid">
+    <section>
+      <h2>Power BI Training (Weeks 5–6)</h2>
+      <ul class="week-list">
+        <li><strong>Week&nbsp;5</strong> <span>Fundamentals, Data Import, Basic Visualisations</span></li>
+        <li><strong>Week&nbsp;6</strong> <span>Advanced Dashboards, Reports, and Publishing</span></li>
+      </ul>
+    </section>
 
-    <!-- Basic Operations -->
-    <div class="card">
-        <h2>Basic Operations <span class="tag q">QUERY</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>SELECT</td><td><code>SELECT col1, col2 FROM table</code></td></tr>
-            <tr><td>SELECT ALL</td><td><code>SELECT * FROM table</code></td></tr>
-            <tr><td>DISTINCT</td><td><code>SELECT DISTINCT col FROM table</code></td></tr>
-            <tr><td>WHERE</td><td><code>... WHERE condition</code></td></tr>
-            <tr><td>ORDER BY</td><td><code>... ORDER BY col ASC|DESC</code></td></tr>
-            <tr><td>LIMIT</td><td><code>... LIMIT n</code></td></tr>
-        </table>
-        <span class="snippet">SELECT name, age FROM users WHERE age>25 ORDER BY age DESC LIMIT 10;</span>
-    </div>
+    <section>
+      <h2>Resources</h2>
+      <p>
+        <a class="btn" href="https://github.com/0xnu/data-analyst-training" target="_blank">GitHub Repository</a>
+        <a class="btn" href="https://github.com/0xnu/data-analyst-training/blob/main/data/northwind.sql" target="_blank">Northwind Dataset</a>
+        <a class="btn" href="https://github.com/0xnu/data-analyst-training/blob/main/docs/CHEATSHEET.md" target="_blank">SQL Cheatsheet</a>
+      </p>
+    </section>
 
-    <!-- Data Modification -->
-    <div class="card">
-        <h2>Data Modification <span class="tag q">QUERY</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>INSERT</td><td><code>INSERT INTO tbl(col1,col2) VALUES(v1,v2)</code></td></tr>
-            <tr><td>INSERT MULTI</td><td><code>INSERT INTO tbl VALUES (v1,v2),(v3,v4)</code></td></tr>
-            <tr><td>UPDATE</td><td><code>UPDATE tbl SET col=v WHERE cond</code></td></tr>
-            <tr><td>DELETE</td><td><code>DELETE FROM tbl WHERE cond</code></td></tr>
-            <tr><td>TRUNCATE</td><td><code>TRUNCATE TABLE tbl</code></td></tr>
-        </table>
-        <span class="snippet">UPDATE users SET age=31 WHERE name='John';</span>
-    </div>
-
-    <!-- Table Structure -->
-    <div class="card">
-        <h2>Table Structure <span class="tag q">DDL</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>CREATE</td><td><code>CREATE TABLE t (col TYPE, ...)</code></td></tr>
-            <tr><td>DROP</td><td><code>DROP TABLE t</code></td></tr>
-            <tr><td>ADD COL</td><td><code>ALTER TABLE t ADD COLUMN col TYPE</code></td></tr>
-            <tr><td>DROP COL</td><td><code>ALTER TABLE t DROP COLUMN col</code></td></tr>
-            <tr><td>MODIFY</td><td><code>ALTER TABLE t MODIFY col TYPE</code></td></tr>
-        </table>
-        <span class="snippet">CREATE TABLE users(id INT PRIMARY KEY, name VARCHAR(50));</span>
-    </div>
-
-    <!-- Data Types -->
-    <div class="card">
-        <h2>Data Types <span class="tag t">TYPE</span></h2>
-        <table>
-            <tr><th>Cat</th><th>Examples</th></tr>
-            <tr><td>Numeric</td><td><code>INT, BIGINT, DECIMAL, FLOAT</code></td></tr>
-            <tr><td>Text</td><td><code>VARCHAR, CHAR, TEXT</code></td></tr>
-            <tr><td>Date/Time</td><td><code>DATE, TIME, DATETIME, TIMESTAMP</code></td></tr>
-            <tr><td>Boolean</td><td><code>BOOLEAN, TINYINT(1)</code></td></tr>
-            <tr><td>Binary</td><td><code>BLOB, BINARY</code></td></tr>
-        </table>
-        <span class="snippet">price DECIMAL(10,2)</span>
-    </div>
-
-    <!-- Constraints -->
-    <div class="card">
-        <h2>Constraints <span class="tag c">RULE</span></h2>
-        <table>
-            <tr><th>Constraint</th><th>Syntax</th></tr>
-            <tr><td>PRIMARY KEY</td><td><code>col TYPE PRIMARY KEY</code></td></tr>
-            <tr><td>FOREIGN KEY</td><td><code>FOREIGN KEY(col) REFERENCES t(col)</code></td></tr>
-            <tr><td>UNIQUE</td><td><code>col TYPE UNIQUE</code></td></tr>
-            <tr><td>NOT NULL</td><td><code>col TYPE NOT NULL</code></td></tr>
-            <tr><td>CHECK</td><td><code>CHECK (condition)</code></td></tr>
-            <tr><td>DEFAULT</td><td><code>col TYPE DEFAULT value</code></td></tr>
-        </table>
-        <span class="snippet">email VARCHAR(100) UNIQUE NOT NULL</span>
-    </div>
-
-    <!-- Joins -->
-    <div class="card">
-        <h2>Joins <span class="tag j">COMBINE</span></h2>
-        <table>
-            <tr><th>Type</th><th>Result</th></tr>
-            <tr><td>INNER</td><td>only matching rows</td></tr>
-            <tr><td>LEFT</td><td>all left rows + matches</td></tr>
-            <tr><td>RIGHT</td><td>all right rows + matches</td></tr>
-            <tr><td>FULL</td><td>all rows from both</td></tr>
-            <tr><td>CROSS</td><td>Cartesian product</td></tr>
-        </table>
-        <span class="snippet">SELECT * FROM users u INNER JOIN orders o ON u.id = o.user_id;</span>
-    </div>
-
-    <!-- Aggregate Functions -->
-    <div class="card">
-        <h2>Aggregate Functions <span class="tag f">FUNC</span></h2>
-        <table>
-            <tr><th>Func</th><th>Purpose</th></tr>
-            <tr><td>COUNT</td><td>counts rows</td></tr>
-            <tr><td>SUM</td><td>sums numeric values</td></tr>
-            <tr><td>AVG</td><td>average</td></tr>
-            <tr><td>MIN/MAX</td><td>min/max value</td></tr>
-            <tr><td>GROUP_CONCAT</td><td>comma-separated string</td></tr>
-        </table>
-        <span class="snippet">SELECT COUNT(*) FROM users;</span>
-    </div>
-
-    <!-- String Functions -->
-    <div class="card">
-        <h2>String Functions <span class="tag f">FUNC</span></h2>
-        <table>
-            <tr><th>Func</th><th>Usage</th></tr>
-            <tr><td>CONCAT</td><td>join strings</td></tr>
-            <tr><td>LENGTH</td><td>string length</td></tr>
-            <tr><td>UPPER/LOWER</td><td>case change</td></tr>
-            <tr><td>SUBSTRING</td><td>extract part</td></tr>
-            <tr><td>REPLACE</td><td>replace text</td></tr>
-            <tr><td>TRIM</td><td>remove spaces</td></tr>
-        </table>
-        <span class="snippet">SELECT UPPER(name) FROM users;</span>
-    </div>
-
-    <!-- Date Functions -->
-    <div class="card">
-        <h2>Date Functions <span class="tag f">FUNC</span></h2>
-        <table>
-            <tr><th>Func</th><th>Purpose</th></tr>
-            <tr><td>NOW()</td><td>current datetime</td></tr>
-            <tr><td>CURDATE()</td><td>current date</td></tr>
-            <tr><td>YEAR(), MONTH(), DAY()</td><td>extract parts</td></tr>
-            <tr><td>DATEDIFF</td><td>days between</td></tr>
-            <tr><td>DATE_ADD</td><td>add interval</td></tr>
-        </table>
-        <span class="snippet">SELECT DATEDIFF('2025-12-31', CURDATE());</span>
-    </div>
-
-    <!-- Conditional Logic -->
-    <div class="card">
-        <h2>Conditional Logic <span class="tag f">FUNC</span></h2>
-        <table>
-            <tr><th>Func</th><th>Usage</th></tr>
-            <tr><td>CASE</td><td>complex if/else</td></tr>
-            <tr><td>IF</td><td>simple true/false</td></tr>
-            <tr><td>IFNULL</td><td>replace NULL</td></tr>
-            <tr><td>COALESCE</td><td>first non-null</td></tr>
-        </table>
-        <span class="snippet">SELECT IF(age>=18,'Adult','Minor') FROM users;</span>
-    </div>
-
-    <!-- Comparison Operators -->
-    <div class="card">
-        <h2>Comparison Operators <span class="tag o">OP</span></h2>
-        <table>
-            <tr><th>Op</th><th>Meaning</th></tr>
-            <tr><td>=, !=, <, ></td><td>equal, not, lt, gt</td></tr>
-            <tr><td>BETWEEN</td><td>inclusive range</td></tr>
-            <tr><td>IN</td><td>match list</td></tr>
-            <tr><td>LIKE</td><td>pattern match</td></tr>
-            <tr><td>IS NULL</td><td>null check</td></tr>
-        </table>
-        <span class="snippet">WHERE name LIKE 'A%' AND age BETWEEN 18 AND 65;</span>
-    </div>
-
-    <!-- Indexes -->
-    <div class="card">
-        <h2>Indexes <span class="tag q">PERF</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>CREATE</td><td><code>CREATE INDEX idx ON tbl(col)</code></td></tr>
-            <tr><td>UNIQUE</td><td><code>CREATE UNIQUE INDEX idx ON tbl(col)</code></td></tr>
-            <tr><td>COMPOSITE</td><td><code>CREATE INDEX idx ON tbl(col1,col2)</code></td></tr>
-            <tr><td>DROP</td><td><code>DROP INDEX idx</code></td></tr>
-        </table>
-        <span class="snippet">CREATE INDEX idx_email ON users(email);</span>
-    </div>
-
-    <!-- Views -->
-    <div class="card">
-        <h2>Views <span class="tag q">VIEW</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>CREATE</td><td><code>CREATE VIEW v AS SELECT ...</code></td></tr>
-            <tr><td>OR REPLACE</td><td><code>CREATE OR REPLACE VIEW v AS ...</code></td></tr>
-            <tr><td>DROP</td><td><code>DROP VIEW v</code></td></tr>
-            <tr><td>QUERY</td><td><code>SELECT * FROM view_name</code></td></tr>
-        </table>
-        <span class="snippet">CREATE VIEW active_users AS SELECT * FROM users WHERE status='active';</span>
-    </div>
-
-    <!-- Stored Procedures -->
-    <div class="card">
-        <h2>Stored Procedures <span class="tag f">PROC</span></h2>
-        <table>
-            <tr><th>Action</th><th>Syntax</th></tr>
-            <tr><td>CREATE</td><td><code>CREATE PROCEDURE p() BEGIN ... END</code></td></tr>
-            <tr><td>PARAMETERS</td><td><code>CREATE PROCEDURE p(IN param TYPE)</code></td></tr>
-            <tr><td>CALL</td><td><code>CALL procedure_name(args)</code></td></tr>
-            <tr><td>DROP</td><td><code>DROP PROCEDURE p</code></td></tr>
-        </table>
-        <span class="snippet">DELIMITER //
-CREATE PROCEDURE GetUserById(IN uid INT)
-BEGIN
-  SELECT * FROM users WHERE id = uid;
-END //
-DELIMITER ;</span>
-    </div>
-
-    <!-- Triggers -->
-    <div class="card">
-        <h2>Triggers <span class="tag f">TRIG</span></h2>
-        <table>
-            <tr><th>Type</th><th>When</th></tr>
-            <tr><td>BEFORE INSERT</td><td>before row insert</td></tr>
-            <tr><td>AFTER INSERT</td><td>after row insert</td></tr>
-            <tr><td>BEFORE UPDATE</td><td>before row update</td></tr>
-            <tr><td>AFTER UPDATE</td><td>after row update</td></tr>
-            <tr><td>BEFORE DELETE</td><td>before row delete</td></tr>
-            <tr><td>AFTER DELETE</td><td>after row delete</td></tr>
-        </table>
-        <span class="snippet">CREATE TRIGGER update_timestamp 
-BEFORE UPDATE ON users 
-FOR EACH ROW 
-SET NEW.updated_at = NOW();</span>
-    </div>
-
-</div>
-
+    <footer>
+      &copy; 2025 Finbarrs Oketunji. All Rights Reserved.
+    </footer>
+  </div>
 </body>
 </html>
