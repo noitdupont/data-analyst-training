@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.8 - 2025-08-18 - @0xnu
+* PowerBI Guide added
+
 ## v0.0.7 - 2025-08-17 - @0xnu
 * Week 3 Assignment Solution
 
