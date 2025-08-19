@@ -48,7 +48,7 @@ SQL Training (10 weeks, 2 days):
 + Weeks 7-10: Intermediate skills covering aggregate functions, JOINs, subqueries, and data manipulation
 + Weeks 11-12: Advanced techniques including window functions, complex JOINs, and stored procedures
 
-Power BI Training (2 weeks):
+Power BI and/or Tableau Training (2 weeks):
 + Week 5: Fundamentals, data import, and basic visualisations
 + Week 6: Advanced dashboards, reports, and publishing capabilities
 
