@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.9 - 2025-08-18 - @0xnu
+* Tableau Guide added
+
 ## v0.0.8 - 2025-08-18 - @0xnu
 * PowerBI Guide added
 
