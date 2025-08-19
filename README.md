@@ -37,15 +37,6 @@ Each week contains PDF materials covering the topics in detail. The materials ar
 
 The dataset used for the training materials is the [Northwind dataset](./data/northwind.sql), which is a well-known dataset in the field of data science. The dataset contains information about the Northwind Traders, including their customers, employees, products, and orders.
 
-### Job Market
-
-Salary benchmarks from Robert Walters, along with current job listings from the Department for Work and Pensions, the Civil Service, and LinkedIn:
-
-+ Data Analyst UK Average Salary: [Robert Walters](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
-+ Data Analyst Jobs 1: [DWP](https://findajob.dwp.gov.uk/search?q=data+analyst&w=UK)
-+ Data Analyst Jobs 2: [Civil Service](https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPVNlYXJjaCZvd25lcnR5cGU9ZmFpciZwYWdlYWN0aW9uPXNlYXJjaGNvbnRleHQmY29udGV4dGlkPTE0Njk3NDE4NSZvd25lcj01MDcwMDAwJnJlcXNpZz0xNzU1NTg5OTM1LTcyNmYyOTZlNTViMDU4MjQ5YTlkOGJkMTc2MWQyODkzODI2ZTU4MTU=)
-+ Data Analyst Jobs 3: [LinkedIn](https://uk.linkedin.com/jobs/data-analyst-jobs?position=1&pageNum=0)
-
 ### Roadmap
 
 The training roadmap is available [here](./roadmap/roadmap.png).
@@ -69,6 +60,15 @@ There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-train
 + [Learning SQL](https://amzn.to/4mh8nW3)
 + [Data Visualization with Microsoft Power BI](https://amzn.to/3V0qdQR)
 + [Learning Tableau 2025](https://amzn.to/3HtqgSj)
+
+### Job Market
+
+Salary benchmarks from Robert Walters, along with current job listings from the Department for Work and Pensions, the Civil Service, and LinkedIn:
+
++ Data Analyst UK Average Salary: [Robert Walters](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
++ Data Analyst Jobs 1: [DWP](https://findajob.dwp.gov.uk/search?q=data+analyst&w=UK)
++ Data Analyst Jobs 2: [Civil Service](https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPVNlYXJjaCZvd25lcnR5cGU9ZmFpciZwYWdlYWN0aW9uPXNlYXJjaGNvbnRleHQmY29udGV4dGlkPTE0Njk3NDE4NSZvd25lcj01MDcwMDAwJnJlcXNpZz0xNzU1NTg5OTM1LTcyNmYyOTZlNTViMDU4MjQ5YTlkOGJkMTc2MWQyODkzODI2ZTU4MTU=)
++ Data Analyst Jobs 3: [LinkedIn](https://uk.linkedin.com/jobs/data-analyst-jobs?position=1&pageNum=0)
 
 ### License
 
