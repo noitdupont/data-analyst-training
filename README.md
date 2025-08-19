@@ -41,7 +41,7 @@ The dataset used for the training materials is the [Northwind dataset](./data/no
 
 Salary benchmarks from Robert Walters and current job listings from the Department for Work and Pensions:
 
-+ Data Analyst UK Average Salary: [Source](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
++ Data Analyst UK Average Salary: [Robert Walters](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
 + Data Analyst Jobs: [DWP](https://findajob.dwp.gov.uk/search?q=data+analyst&w=UK)
 
 ### Roadmap
