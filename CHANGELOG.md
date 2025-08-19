@@ -1,6 +1,9 @@
 # Changelog
 
-## v0.0.9 - 2025-08-18 - @0xnu
+## v0.1.0 - 2025-08-19 - @0xnu
+* Week 4 added
+
+## v0.0.9 - 2025-08-19 - @0xnu
 * Tableau Guide added
 
 ## v0.0.8 - 2025-08-18 - @0xnu
