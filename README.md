@@ -66,7 +66,7 @@ There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-train
 Salary benchmarks from Robert Walters, along with current job listings from the Department for Work and Pensions, the Civil Service, and LinkedIn:
 
 + Data Analyst UK Average Salary: [Robert Walters](https://www.robertwalters.co.uk/our-services/salary-survey/data-analyst-salaries.html)
-+ Data Analyst Jobs: [DWP](https://findajob.dwp.gov.uk/search?q=Data+Analyst&w=UK), [Civil Service](https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPVNlYXJjaCZvd25lcnR5cGU9ZmFpciZwYWdlYWN0aW9uPXNlYXJjaGNvbnRleHQmY29udGV4dGlkPTE0Njk3NDE4NSZvd25lcj01MDcwMDAwJnJlcXNpZz0xNzU1NTg5OTM1LTcyNmYyOTZlNTViMDU4MjQ5YTlkOGJkMTc2MWQyODkzODI2ZTU4MTU=), and [LinkedIn](https://uk.linkedin.com/jobs/data-analyst-jobs?position=1&pageNum=0)
++ Data Analyst Jobs: [DWP](https://findajob.dwp.gov.uk/search?q=Data+Analyst&w=UK), [Civil Service](https://www.civilservicejobs.service.gov.uk/csr/index.cgi?SID=cGFnZWNsYXNzPVNlYXJjaCZvd25lcj01MDcwMDAwJnBhZ2VhY3Rpb249c2VhcmNoY29udGV4dCZjb250ZXh0aWQ9MTQ3MzUwNjA3Jm93bmVydHlwZT1mYWlyJnJlcXNpZz0xNzU1NzYxNjkwLTk4ZTJlYjg3Nzk0YjZlZDdmNGZmMmJiYjJkNDBhMDQzZTBlMTQ4NzI=), and [LinkedIn](https://uk.linkedin.com/jobs/data-analyst-jobs?position=1&pageNum=0)
 + Remote Data Analyst Jobs: [WeWorkRemotely](https://weworkremotely.com/remote-jobs/search?term=Data+Analyst), [Remote OK](https://remoteok.com/remote-analyst-jobs), and [Remote Rocketship](https://www.remoterocketship.com/?page=1&sort=DateAdded&jobTitle=Data+Analyst&locations=United+Kingdom)
 
 ### License
