@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.2 - 2025-08-22 - @0xnu
+* Week 4 Bonus added
+
 ## v0.1.1 - 2025-08-19 - @0xnu
 * Week 4 Assignment Solution
 
