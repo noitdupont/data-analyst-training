@@ -65,8 +65,6 @@ There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-train
 
 You can continue improving your SQL skills with hands‑on practice on [LeetCode](https://leetcode.com/problemset/database/), which offers a collection of database problems ranging from basic queries to advanced analytical challenges. These exercises will help you master SQL syntax, optimize query performance, and prepare for technical interviews.
 
-> practice makes perfect
-
 ### Job Market
 
 Salary benchmarks from Robert Walters, along with current job listings from the Department for Work and Pensions, the Civil Service, and LinkedIn:
