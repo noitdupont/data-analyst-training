@@ -63,7 +63,7 @@ There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-train
 
 ### Practice
 
-You can continue improving your SQL skills with hands‑on practice on [LeetCode](https://leetcode.com/problemset/database/), which offers a collection of database problems ranging from basic queries to advanced analytical challenges. These exercises will help you master SQL syntax, optimize query performance, and prepare for technical interviews.
+You can continue improving your SQL skills with hands‑on practice on [LeetCode](https://leetcode.com/problemset/database/) and [HackerRank](https://www.hackerrank.com/domains/sql), which offer collections of database problems ranging from basic queries to advanced analytical challenges. These exercises will help you master SQL syntax, optimize query performance, and prepare for technical interviews.
 
 ### Job Market
 
