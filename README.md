@@ -58,6 +58,7 @@ There is an SQL cheatsheet page [here](https://0xnu.github.io/data-analyst-train
 
 + [Becoming a Data Analyst](https://amzn.to/3V29U64)
 + [Learning SQL](https://amzn.to/4mh8nW3)
++ [SQL for Data Analysis](https://amzn.to/3HtTG2K)
 + [Data Visualization with Microsoft Power BI](https://amzn.to/3V0qdQR)
 + [Learning Tableau 2025](https://amzn.to/3HtqgSj)
 
