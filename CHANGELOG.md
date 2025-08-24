@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.3 - 2025-08-24 - @0xnu
+* Week 7 added
+
 ## v0.1.2 - 2025-08-22 - @0xnu
 * Week 4 Bonus added
 
