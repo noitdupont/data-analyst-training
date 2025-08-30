@@ -8,28 +8,28 @@
 
 The repository contains training materials for data analysts, organized by week:
 
-- **Week 1**: Introduction to Data Analysis
-- **Week 2**: Basic SELECT Statements
-- **Week 3**: WHERE Clauses & Filtering
-- **Week 4**: Sorting & Grouping Data
-- **Week 5**: Fundamentals, data import, and basic visualisations (Hands-on Lab Session)
+- [x] **Week 1**: Introduction to Data Analysis
+- [x] **Week 2**: Basic SELECT Statements
+- [x] **Week 3**: WHERE Clauses & Filtering
+- [x] **Week 4**: Sorting & Grouping Data
+- [x] **Week 5**: Fundamentals, data import, and basic visualisations (Hands-on Lab Session)
    - Getting Started with Power BI
    - Data Import and Connection
    - Data Transformation with Power Query
    - Creating Basic Visualisations
    - Hands-on Lab Session 1
-- **Week 6**: Advanced dashboards, reports, and publishing capabilities (Hands-on Lab Session)
+- [x] **Week 6**: Advanced dashboards, reports, and publishing capabilities (Hands-on Lab Session)
    - Advanced Visualisation Techniques
    - Dashboard Design Principles
    - Interactive Features and Filters
    - Publishing and Sharing
    - Hands-on Lab Session 2
-- **Week 7**: Aggregate Functions
-- **Week 8**: JOINs, Subqueries & CTEs
-- **Week 9**: Data Types & Functions
-- **Week 10**: Window Functions & Complex JOINs
-- **Week 11**: Advanced JOINs & Set Operations
-- **Week 12**: Stored Procedures & Views
+- [x] **Week 7**: Aggregate Functions
+- [x] **Week 8**: JOINs, Subqueries & CTEs
+- [x] **Week 9**: Data Types & Functions
+- [ ] **Week 10**: Window Functions & Complex JOINs
+- [ ] **Week 11**: Advanced JOINs & Set Operations
+- [ ] **Week 12**: Stored Procedures & Views
 
 Each week contains PDF materials covering the topics in detail. The materials are designed to be self-contained, with each week building on the concepts introduced in the previous week.
 
