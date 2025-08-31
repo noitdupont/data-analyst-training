@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.6 - 2025-08-31 - @0xnu
+* Data export script
+
 ## v0.1.5 - 2025-08-30 - @0xnu
 * Week 9 added
 
