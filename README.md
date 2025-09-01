@@ -27,7 +27,7 @@ The repository contains training materials for data analysts, organized by week:
 - [x] **Week 7**: Aggregate Functions
 - [x] **Week 8**: JOINs, Subqueries & CTEs
 - [x] **Week 9**: Data Types & Functions
-- [ ] **Week 10**: Window Functions & Complex JOINs
+- [x] **Week 10**: Window Functions & Complex JOINs
 - [ ] **Week 11**: Advanced JOINs & Set Operations
 - [ ] **Week 12**: Stored Procedures & Views
 
