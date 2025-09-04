@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.9 - 2025-09-04 - @0xnu
+* Northwind DAX Measures
+* Power Query M Code
+* Power BI Template
+
 ## v0.1.8 - 2025-09-04 - @0xnu
 * Power BI Measures
 
