@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.8 - 2025-09-04 - @0xnu
+* Power BI Measures
+
 ## v0.1.7 - 2025-09-01 - @0xnu
 * Week 10 added
 
