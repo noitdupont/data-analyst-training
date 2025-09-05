@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Modified_MIT-f5de53?&color=f5de53)](/LICENSE)
 
 > [!NOTE]
-> I have started teaching data analysis and might eventually turn it into a digital course. 🤷‍♂️
+> I have started teaching data analysis and might eventually turn it into a digital course. [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) can't and won't automate everything data analysts do. Acquire the skills, make a lot of money, and take care of your family. 🤷‍♂️
 
 The repository contains training materials for data analysts, organized by week:
 
