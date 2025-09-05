@@ -40,7 +40,7 @@ FROM
         ON t.TABLE_SCHEMA = c.TABLE_SCHEMA 
         AND t.TABLE_NAME = c.TABLE_NAME
 WHERE 
-    t.TABLE_SCHEMA = DATABASE()  -- Current database only. Remember to set database as default.
+    t.TABLE_SCHEMA = DATABASE()  -- Current database only. Remember to set your preferred database as default.
     AND (
         -- Always include base tables
         t.TABLE_TYPE = 'BASE TABLE'
