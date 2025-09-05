@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.1 - 2025-09-05 - @0xnu
+* Northwind [Entity Relationship Diagram](https://www.ibm.com/think/topics/entity-relationship-diagram) (ERD)
+
 ## v0.2.0 - 2025-09-05 - @0xnu
 * MySQL Data Dictionary Generator
 * Northwind [Data Dictionary](https://en.wikipedia.org/wiki/Data_dictionary)
