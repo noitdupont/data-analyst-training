@@ -1,0 +1,43 @@
+"Schema Name","Table Name","Object Type","Field Name","Data Type","Allow Empty","Key Type","Extra Properties","Field Description","Default Value","Column Position"
+northwind,categories,"BASE TABLE",CategoryID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,categories,"BASE TABLE",CategoryName,varchar(25),YES,,,,NULL,2
+northwind,categories,"BASE TABLE",Description,varchar(255),YES,,,,NULL,3
+northwind,customers,"BASE TABLE",CustomerID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,customers,"BASE TABLE",CustomerName,varchar(50),YES,,,,NULL,2
+northwind,customers,"BASE TABLE",ContactName,varchar(50),YES,,,,NULL,3
+northwind,customers,"BASE TABLE",Address,varchar(50),YES,,,,NULL,4
+northwind,customers,"BASE TABLE",City,varchar(20),YES,,,,NULL,5
+northwind,customers,"BASE TABLE",PostalCode,varchar(10),YES,,,,NULL,6
+northwind,customers,"BASE TABLE",Country,varchar(15),YES,,,,NULL,7
+northwind,employees,"BASE TABLE",EmployeeID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,employees,"BASE TABLE",LastName,varchar(15),YES,,,,NULL,2
+northwind,employees,"BASE TABLE",FirstName,varchar(15),YES,,,,NULL,3
+northwind,employees,"BASE TABLE",BirthDate,datetime,YES,,,,NULL,4
+northwind,employees,"BASE TABLE",Photo,varchar(25),YES,,,,NULL,5
+northwind,employees,"BASE TABLE",Notes,varchar(1024),YES,,,,NULL,6
+northwind,orderdetails,"BASE TABLE",OrderDetailID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,orderdetails,"BASE TABLE",OrderID,int,YES,INDEX,,,NULL,2
+northwind,orderdetails,"BASE TABLE",ProductID,int,YES,INDEX,,,NULL,3
+northwind,orderdetails,"BASE TABLE",Quantity,int,YES,,,,NULL,4
+northwind,orders,"BASE TABLE",OrderID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,orders,"BASE TABLE",CustomerID,int,YES,INDEX,,,NULL,2
+northwind,orders,"BASE TABLE",EmployeeID,int,YES,INDEX,,,NULL,3
+northwind,orders,"BASE TABLE",OrderDate,datetime,YES,,,,NULL,4
+northwind,orders,"BASE TABLE",ShipperID,int,YES,INDEX,,,NULL,5
+northwind,products,"BASE TABLE",ProductID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,products,"BASE TABLE",ProductName,varchar(50),YES,,,,NULL,2
+northwind,products,"BASE TABLE",SupplierID,int,YES,INDEX,,,NULL,3
+northwind,products,"BASE TABLE",CategoryID,int,YES,INDEX,,,NULL,4
+northwind,products,"BASE TABLE",Unit,varchar(25),YES,,,,NULL,5
+northwind,products,"BASE TABLE",Price,"decimal(10,0)",YES,,,,NULL,6
+northwind,shippers,"BASE TABLE",ShipperID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,shippers,"BASE TABLE",ShipperName,varchar(25),YES,,,,NULL,2
+northwind,shippers,"BASE TABLE",Phone,varchar(15),YES,,,,NULL,3
+northwind,suppliers,"BASE TABLE",SupplierID,int,NO,"PRIMARY KEY",auto_increment,,NULL,1
+northwind,suppliers,"BASE TABLE",SupplierName,varchar(50),YES,,,,NULL,2
+northwind,suppliers,"BASE TABLE",ContactName,varchar(50),YES,,,,NULL,3
+northwind,suppliers,"BASE TABLE",Address,varchar(50),YES,,,,NULL,4
+northwind,suppliers,"BASE TABLE",City,varchar(20),YES,,,,NULL,5
+northwind,suppliers,"BASE TABLE",PostalCode,varchar(10),YES,,,,NULL,6
+northwind,suppliers,"BASE TABLE",Country,varchar(15),YES,,,,NULL,7
+northwind,suppliers,"BASE TABLE",Phone,varchar(15),YES,,,,NULL,8

@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0 - 2025-09-05 - @0xnu
+* MySQL Data Dictionary Generator
+* Northwind [Data Dictionary](https://en.wikipedia.org/wiki/Data_dictionary)
+
 ## v0.1.9 - 2025-09-04 - @0xnu
 * Northwind DAX Measures
 * Power Query M Code
