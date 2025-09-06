@@ -39,7 +39,7 @@ The dataset used for the training materials is the [Northwind dataset](./data/no
 
 ### Roadmap
 
-The training roadmap is available [here](./roadmap/roadmap.png).
+The training roadmap is available [here](./docs/roadmap/roadmap.png).
 
 SQL Training (10 weeks, 2 days):
 + Weeks 1-4: Core fundamentals including database concepts, basic queries, filtering, and grouping
