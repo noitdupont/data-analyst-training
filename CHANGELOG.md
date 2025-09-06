@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.2 - 2025-09-06 - @0xnu
+* Week 11 added
+
 ## v0.2.1 - 2025-09-05 - @0xnu
 * Northwind [Entity Relationship Diagram](https://www.ibm.com/think/topics/entity-relationship-diagram) (ERD)
 
