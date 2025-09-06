@@ -52,7 +52,7 @@ Power BI and/or Tableau Training (2 weeks):
 
 ### SQL Cheatsheet
 
-There is an SQL cheatsheet page [here](./docs/CHEATSHEET.md).
+There is an SQL cheatsheet page [here](./docs/cheatsheet/CHEATSHEET.md).
 
 ### Useful Books
 
