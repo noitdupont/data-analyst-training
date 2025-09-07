@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.3 - 2025-09-06 - @0xnu
+* Week 12 added
+* Data Dictionary Generator refined
+
 ## v0.2.2 - 2025-09-06 - @0xnu
 * Week 11 added
 
