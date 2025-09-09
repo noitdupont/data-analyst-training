@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Modified_MIT-f5de53?&color=f5de53)](/LICENSE)
 
 > [!NOTE]
-> [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) can't and won't automate everything Data Analysts do. AI will transform the profession, but the need for human insight and judgment ensures its continued relevance. Acquire the skills, make a lot of money, and take care of your family. [Mathematicians are at greater risk](https://arxiv.org/pdf/2509.03065v1). 🤷‍♂️
+> [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) can't and won't automate everything Data Analysts do. AI will transform the profession, but the need for human insight and judgment ensures its continued relevance. Acquire the skills, make a lot of money, and take care of your family. [Mathematicians](https://arxiv.org/pdf/2509.03065v1) and [Scientists](https://arxiv.org/pdf/2509.06503) are at greater risk. 🤷‍♂️
 
 The repository contains training materials for data analysts, organized by week:
 
