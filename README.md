@@ -62,6 +62,7 @@ There is an SQL cheatsheet page [here](./docs/cheatsheet/CHEATSHEET.md).
 + [Fundamentals of Data Visualization](https://amzn.to/46eKFmo)
 + [Data Visualization with Microsoft Power BI](https://amzn.to/3V0qdQR)
 + [Learning Tableau 2025](https://amzn.to/3HtqgSj)
++ [Storytelling with Data](https://amzn.to/42oY7mu)
 
 ### Practice
 
