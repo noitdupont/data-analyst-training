@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.4 - 2025-09-06 - @0xnu
+* Northwind Postgres
+* Northwind Oracle
+* Oracle Dockerfile
+
 ## v0.2.3 - 2025-09-06 - @0xnu
 * Week 12 added
 * Data Dictionary Generator refined
