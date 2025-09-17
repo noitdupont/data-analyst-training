@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.6 - 2025-09-17 - @0xnu
+* Northwind IBM Db2
+* IBM Db2 Dockerfile
+
 ## v0.2.5 - 2025-09-17 - @0xnu
 * Northwind MSSQL
 * MSSQL Dockerfile
