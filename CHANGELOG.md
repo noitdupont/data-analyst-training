@@ -1,6 +1,11 @@
 # Changelog
 
-## v0.2.4 - 2025-09-06 - @0xnu
+## v0.2.5 - 2025-09-17 - @0xnu
+* Northwind MSSQL
+* MSSQL Dockerfile
+* MSSQL docker-entrypoint.sh
+
+## v0.2.4 - 2025-09-16 - @0xnu
 * Northwind Postgres
 * Northwind Oracle
 * Oracle Dockerfile

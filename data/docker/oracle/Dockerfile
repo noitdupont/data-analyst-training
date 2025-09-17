@@ -1,5 +1,6 @@
 # Use Oracle Database Free (no authentication required)
 FROM gvenzl/oracle-free:23-slim
+LABEL maintainer="Finbarrs Oketunji <f+dba@finbarrs.eu>"
 
 EXPOSE 1521 5500
 
