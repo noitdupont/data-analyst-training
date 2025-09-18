@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.8 - 2025-09-18 - @0xnu
+* SQLite Textual ERD
+
 ## v0.2.7 - 2025-09-18 - @0xnu
 * Northwind SQLite
 
