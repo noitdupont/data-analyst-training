@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.7 - 2025-09-18 - @0xnu
+* Northwind SQLite
+
 ## v0.2.6 - 2025-09-17 - @0xnu
 * Northwind IBM Db2
 * IBM Db2 Dockerfile
