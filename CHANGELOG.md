@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.9 - 2025-09-19 - @0xnu
+* [MySQL](./data/guides/setup_mysql.md) and [Postgres](./data/guides/setup_postgres.md) Setup Guides
+
 ## v0.2.8 - 2025-09-18 - @0xnu
 * SQLite Textual ERD
 
