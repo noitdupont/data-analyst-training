@@ -37,6 +37,10 @@ Each week contains PDF materials covering the topics in detail. The materials ar
 
 The dataset used for the training materials is the [Northwind dataset](./data/sql/northwind.sql), which is a well-known dataset in the field of data science. The dataset contains information about the Northwind Traders, including their customers, employees, products, and orders.
 
+### Database Management Tools
+
+For database management and query execution, I recommend using [DBeaver Community](https://dbeaver.io/), a free and open-source universal database tool that supports multiple database systems including MySQL, PostgreSQL, SQLite, and more.
+
 ### Roadmap
 
 The training roadmap is available [here](./docs/roadmap/roadmap.png).
