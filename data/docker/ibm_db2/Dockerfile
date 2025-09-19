@@ -1,3 +1,4 @@
+# Regulated sectors (mostly finance) and government agencies still use IBM Db2 ;)
 # Use IBM Db2 Community Edition (force AMD64 platform)
 FROM --platform=linux/amd64 ibmcom/db2:latest
 
