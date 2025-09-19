@@ -89,7 +89,7 @@ This project is licensed under the [Modified MIT License](./LICENSE).
 ```tex
 @misc{datafo2025,
   author       = {Oketunji, A.F.},
-  title        = {Data Analysis Training},
+  title        = {Data Analyst Training},
   year         = 2025,
   version      = {0.2.9},
   publisher    = {Zenodo},
