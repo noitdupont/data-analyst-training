@@ -84,6 +84,20 @@ Salary benchmarks from Robert Walters, along with current job listings from the 
 
 This project is licensed under the [Modified MIT License](./LICENSE).
 
+### Citation
+
+```tex
+@misc{datafo2025,
+  author       = {Oketunji, A.F.},
+  title        = {Data Analysis Training},
+  year         = 2025,
+  version      = {0.2.9},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17159654},
+  url          = {https://doi.org/10.5281/zenodo.17159654}
+}
+```
+
 ### Copyright
 
 (c) 2025 [Finbarrs Oketunji](https://finbarrs.eu). All Rights Reserved.
