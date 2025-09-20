@@ -1,5 +1,22 @@
 # Database Management Makefile
 # Usage: make [target]
+#
+# Copyright (c) 2025 Finbarrs Oketunji
+# Written by Finbarrs Oketunji <f@finbarrs.eu>
+#
+# This file is part of data-analysts-training.
+#
+# data-analysts-training is an open-source software: you are free to redistribute
+# and/or modify it under the terms of the Modified MIT License.
+#
+# data-analysts-training is made available with the hope that it will be beneficial,
+# but it comes with NO WARRANTY whatsoever. This includes, but is not limited
+# to, any implied warranties of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+# PURPOSE. For more detailed information, please refer to the
+# LICENSE file.
+#
+# You should have received a copy of the Modified MIT License
+# along with data-analysts-training. If not, email Finbarrs Oketunji <f@finbarrs.eu>
 
 # Docker Database Targets
 .PHONY: db2-build db2-run db2-clean mssql-build mssql-run mssql-clean oracle-build oracle-run oracle-clean
