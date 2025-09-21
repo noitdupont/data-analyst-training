@@ -91,10 +91,10 @@ This project is licensed under the [Modified MIT License](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Data Analyst Training},
   year         = 2025,
-  version      = {0.2.9},
+  version      = {0.3.0},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17159654},
-  url          = {https://doi.org/10.5281/zenodo.17159654}
+  doi          = {10.5281/zenodo.17170671},
+  url          = {https://doi.org/10.5281/zenodo.17170671}
 }
 ```
 
