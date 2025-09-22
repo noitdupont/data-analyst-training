@@ -18,9 +18,19 @@
 # You should have received a copy of the Modified MIT License
 # along with data-analysts-training. If not, email Finbarrs Oketunji <f@finbarrs.eu>
 
-# Docker Database Targets
-.PHONY: db2-build db2-run db2-clean mssql-build mssql-run mssql-clean oracle-build oracle-run oracle-clean
-.PHONY: mysql-setup postgres-setup help
+# Docker Setup and Database Targets
+.PHONY: docker-setup docker-remove db2-build db2-run db2-clean mssql-build mssql-run mssql-clean oracle-build oracle-run oracle-clean mysql-setup postgres-setup help
+
+# Docker Management Commands
+docker-setup:
+	@echo "Setting up Docker on macOS..."
+	@chmod +x ./docker.sh
+	@./docker.sh install
+
+docker-remove:
+	@echo "Removing Docker from macOS..."
+	@chmod +x ./docker.sh
+	@./docker.sh remove
 
 # IBM DB2 Commands
 db2-build:
@@ -117,6 +127,10 @@ clean-all:
 
 help:
 	@echo "Database Management Makefile"
+	@echo ""
+	@echo "Docker Management:"
+	@echo "  docker-setup   - Install and setup Docker on macOS"
+	@echo "  docker-remove  - Remove Docker from macOS"
 	@echo ""
 	@echo "Docker Database Targets:"
 	@echo "  db2-build      - Build IBM DB2 Docker image"
